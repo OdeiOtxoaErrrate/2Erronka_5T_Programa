@@ -10,7 +10,7 @@ public class EskaerakDAO {
 
     private Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-                "jdbc:mysql://localhost/bigarrenerronka",
+        		"jdbc:mysql://localhost:3307/bigarrenerronka",
                 "root",
                 "1MG32025"
         );
